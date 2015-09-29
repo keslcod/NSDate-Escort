@@ -14,4 +14,6 @@ Pod::Spec.new do |s|
   s.requires_arc = true
 
   s.watchos.deployment_target = '2.0'
+  s.ios.deployment_target = '6.0'
+  s.macos.deployment_target = '10.9'
 end
