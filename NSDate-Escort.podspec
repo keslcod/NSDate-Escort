@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name         = "NSDate-Escort"
-  s.version      = "1.5.1"
+  s.version      = "1.5.2"
   s.summary      = "A NSDate utility library that is compatible with NSDate-Extensions API."
   s.homepage     = "https://github.com/azu/NSDate-Escort"
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
@@ -12,4 +12,6 @@ Pod::Spec.new do |s|
   }
   s.source_files = 'NSDate-Escort/**/*.{h,m}'
   s.requires_arc = true
+
+  s.watchos.deployment_target = '2.0'
 end
